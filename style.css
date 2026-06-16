@@ -1,0 +1,56 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* Lavender */
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #ffb366; /* Light orange */
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Main Section */
+main {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Start Button */
+#startButton {
+    background-color: #ffb366;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startButton:hover {
+    opacity: 0.85;
+}
